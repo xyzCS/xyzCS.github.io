@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Yanzheng Xiang (向彦铮)"
 title_separator          : "-"
 name                     : &name "Yanzheng Xiang (向彦铮)"
-description              : &description "personal description"
+description              : &description "A second year PhD student at KCL"
 url                      : https://xyzcs.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -28,15 +28,15 @@ author:
   location         : "United Kingdom"
   employer         : "King's College London"
   uri              : # URL
-  email            : "xyz1998seu At gmail.com" 
+  email            : "xyz1998seu@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=VXUcODEAAAAJ&hl=EN"
   impactstory      : # URL
-  orcid            : "https://www.semanticscholar.org/author/Yanzheng-Xiang/2264255437"
+  orcid            : 
   semantic         : # URL
-  pubmed           : "https://www.researchgate.net/profile/Yanzheng-Xiang"
+  pubmed           : 
   researchgate     : # URL
   scopus           : # URL
 
