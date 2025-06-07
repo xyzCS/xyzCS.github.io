@@ -13,11 +13,16 @@ Prior to joining KCL, I earned my M.S. degree from Southeast University (Sept. 2
 
 Publications
 ======
+**SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers**  
+Y. Xiang, Y. Han, S. OuYang, L. Gui,  Y. He  
+*Under Review* | [Paper](https://arxiv.org/abs/2504.00255) | [Website](https://xyzcs.github.io/scireplicate.github.io/) 
+
+
 
 
 Invited Talks
 ======
-- ** Meta, Llama Community Meet-up, 4.6.2025, Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies. [[link](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
+- Meta, Llama Community Meet-up, 4.6.2025, Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies. [[link](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
 
 
 
