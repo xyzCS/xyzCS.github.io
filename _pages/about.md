@@ -13,15 +13,21 @@ Prior to joining KCL, I earned my M.S. degree from Southeast University (Sept. 2
 
 Publications
 ======
-**SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers**  
+<span style="color:brown; font-weight:bold;">
+SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers
+</span><br>
 *Yanzheng Xiang*, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He
 *Under Review* | [Paper](https://arxiv.org/abs/2504.00255) | [Website](https://xyzcs.github.io/scireplicate.github.io/) 
 
-**Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models**
+<span style="color:brown; font-weight:bold;">
+Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models
+</span><br>
 *Yanzheng Xiang*, Hanqi Yan, Lin Gui, Yulan He
 *Findings of ACL 2024* | [Paper](https://arxiv.org/abs/2402.15637)
 
-**G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation.**
+<span style="color:brown; font-weight:bold;">
+G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation
+</span><br>
 *Yanzheng Xiang*, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou
 *Findings of ACL 2023* | [Paper](https://aclanthology.org/2023.findings-acl.23/)
 
