@@ -6,6 +6,8 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm a second-year PhD student at the [NLP group](https://kclnlp.github.io/) at King's College London, advised by [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me). My research interests lies in AI for Scientific Discovery, AI for Software Engineering and AI Agent.
+Hello! I'm currently a second-year PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working under the supervision of [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me). My research focuses on **AI for Scientific Discovery**, **AI for Software Engineering**, and **AI Agents**.
 
-Before KCL, I finished my M.S. at Southeast University(09.2020-07.2023) and my B.E. at Hefei University of Technology(09.2016-07.2020). 
+Prior to joining KCL, I earned my M.S. degree from Southeast University (Sept. 2020 – July 2023), where I was advised by [Prof. Deyu Zhou](https://scholar.google.com/citations?user=DvVelLcAAAAJ&hl=zh-CN). I completed my B.E. at Hefei University of Technology (Sept. 2016 – July 2020).
+
+
