@@ -11,3 +11,16 @@ Hello! I'm currently a second-year PhD student in the [NLP group](https://kclnlp
 Prior to joining KCL, I earned my M.S. degree from Southeast University (Sept. 2020 – July 2023), where I was advised by [Prof. Deyu Zhou](https://scholar.google.com/citations?user=DvVelLcAAAAJ&hl=zh-CN). I completed my B.E. at Hefei University of Technology (Sept. 2016 – July 2020).
 
 
+Publications
+======
+
+
+Invited Talks
+======
+- ** Meta, Llama Community Meet-up, 4.6.2025, Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies. [[link](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
+
+
+
+
+
+
