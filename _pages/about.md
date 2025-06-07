@@ -33,7 +33,7 @@ Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Lang
 
 **Yanzheng Xiang**, Hanqi Yan, Lin Gui, Yulan He
 
-*Findings of ACL 2024* | [Paper](https://arxiv.org/abs/2402.15637)
+*Findings of ACL 2024* \| [Paper](https://arxiv.org/abs/2402.15637)
 
 <span style="color:brown; font-weight:bold;">
 G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation
