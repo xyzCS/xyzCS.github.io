@@ -19,13 +19,7 @@ SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction f
 
 **Yanzheng Xiang**, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He
 
-<table style="border:1px solid lightgray; border-collapse:collapse;">
-  <tr>
-    <td style="padding:8px; border:1px solid lightgray;"><em>Under Review</em></td>
-    <td style="padding:8px; border:1px solid lightgray;"><a href="https://arxiv.org/abs/2504.00255">Paper</a></td>
-    <td style="padding:8px; border:1px solid lightgray;"><a href="https://xyzcs.github.io/scireplicate.github.io/">Website</a></td>
-  </tr>
-</table>
+*Under Review* \| [Paper](https://arxiv.org/abs/2504.00255) \| [Website](https://xyzcs.github.io/scireplicate.github.io/)
 
 <span style="color:brown; font-weight:bold;">
 Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models
@@ -41,12 +35,7 @@ G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL G
 
 **Yanzheng Xiang**, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou
 
-<table style="border:1px solid lightgray; border-collapse:collapse;">
-  <tr>
-    <td style="padding:8px; border:1px solid lightgray;"><em>Findings of ACL 2023</em></td>
-    <td style="padding:8px; border:1px solid lightgray;"><a href="https://aclanthology.org/2023.findings-acl.23/">Paper</a></td>
-  </tr>
-</table>
+*Findings of ACL 2023* \| [Paper](https://aclanthology.org/2023.findings-acl.23/)
 
 Invited Talks
 ======
