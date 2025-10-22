@@ -46,10 +46,12 @@ Competitions
 
 Publications
 ======
+<ul class="publication-list">
 {% for publication in site.publications reversed %}
   {% assign post = publication %}
-  {% include archive-single.html type='plain' %}
+  {% include publication-list-item.html %}
 {% endfor %}
+</ul>
   
 Talks
 ======
