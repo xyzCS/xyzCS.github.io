@@ -6,43 +6,40 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm currently a second-year PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working under the supervision of [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me). My research focuses on **AI for Scientific Discovery**, **AI for Software Engineering**, and **AI Agents**.
+Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working with [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me). You can reach me at [xyz1998seu@gmail.com](mailto:xyz1998seu@gmail.com).
 
-Prior to joining KCL, I earned my M.S. degree from Southeast University (Sept. 2020 – July 2023), where I was advised by [Prof. Deyu Zhou](https://scholar.google.com/citations?user=DvVelLcAAAAJ&hl=zh-CN). I completed my B.E. at Hefei University of Technology (Sept. 2016 – July 2020).
-
-
-Publications
+Professional Summary
 ======
-<span style="color:brown; font-weight:bold;">
-SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers
-</span><br>
+My current research centers on agentic coding in machine learning and artificial intelligence. I explore methods for reliable code reproduction from academic papers, effective memory management, tool utilization, and the creation of synthetic trajectories to perform supervised fine-tuning and reinforcement learning for improving large language model performance on complex coding tasks.
 
-**Yanzheng Xiang**, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He
+Experience
+======
+- **Meta** — Contractor (Nov. 2025 – Dec. 2025). Hired by Dr. Yoram Bachrach to develop AI Scientist agents: LLM systems that automate research tasks and machine learning engineering workflows.
+- **AstraZeneca** — Internship (Jul. 2025 – Oct. 2025). Collaborated with Dr. Saseendran and Dr. Jin on generating multiple tokens per decoding step in Diffusion Language Models to accelerate decoding.
 
-*Under Review* \| [Paper](https://arxiv.org/abs/2504.00255) \| [Website](https://xyzcs.github.io/scireplicate.github.io/)
+Education
+======
+- **King's College London**, Ph.D. in Computer Science (Sep. 2023 – Jun. 2027, expected). Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Research topics: large language models, in-context learning, interpretability.
+- **Southeast University**, M.S. in Software Engineering (Sep. 2020 – Jun. 2023). Average score: 86.42/100. Supervised by Prof. Deyu Zhou. Research topics: question answering, code generation.
+- **Hefei University of Technology**, B.E. in Computer Science and Technology (Sep. 2016 – Jun. 2020). Average score: 90.10/100. Coursework included linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, and internet protocols.
 
-<span style="color:brown; font-weight:bold;">
-Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models
-</span><br>
-
-**Yanzheng Xiang**, Hanqi Yan, Lin Gui, Yulan He
-
-*Findings of ACL 2024* \| [Paper](https://arxiv.org/abs/2402.15637)
-
-<span style="color:brown; font-weight:bold;">
-G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation
-</span><br>
-
-**Yanzheng Xiang**, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou
-
-*Findings of ACL 2023* \| [Paper](https://aclanthology.org/2023.findings-acl.23/)
+Awards and Honors
+======
+- NMES International Studentship (2023 – 2027)
+- Outstanding Graduate Student, Hefei University of Technology (2020)
+- Merit Student, Hefei University of Technology (2018)
 
 Invited Talks
 ======
-- Meta, Llama Community Meet-up, 4.6.2025, Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies. [[link](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
+- Meta, LLaMA Community Meet-up (Apr. 6, 2025): “Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.” [[event post](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
 
+Competitions
+======
+- **National First Prize (Top 0.65%)**, China Undergraduate Mathematical Contest in Modelling (2018). Team-based modeling competition solving open-ended applied problems.
+- **1st Place**, [Spider Leaderboard](https://yale-lily.github.io/spider) (2022). Our model G3R achieved the top rank on the “exact set match without values” metric and is currently 5th overall.
 
-
-
-
-
+Publications
+======
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
