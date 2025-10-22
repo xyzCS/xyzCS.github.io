@@ -1,0 +1,27 @@
+{% assign link_url = post.paperurl | default: post.link | default: post.url %}
+{% if post.date %}
+  {% assign pub_year = post.date | date: '%Y' %}
+  {% if post.venue and post.venue contains pub_year %}
+    {% assign show_year = false %}
+  {% else %}
+    {% assign show_year = true %}
+  {% endif %}
+{% else %}
+  {% assign show_year = false %}
+{% endif %}
+<li class="publication-list__item">
+  <strong>
+    {% if link_url %}
+      <a href="{{ link_url }}">{{ post.title }}</a>
+    {% else %}
+      {{ post.title }}
+    {% endif %}
+  </strong>
+  {% if post.paperurl %}
+    [<a href="{{ post.paperurl }}">{{ post.paper_label | default: 'paper' }}</a>]
+  {% endif %}
+  {% if post.authors %}<br />{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
+  {% if post.venue %}
+    <br />In {{ post.venue }}{% if show_year %} ({{ pub_year }}){% endif %}.
+  {% endif %}
+</li>
