@@ -19,9 +19,32 @@ Experience
 
 Education
 ======
-- **King's College London**, Ph.D. in Computer Science (Sep. 2023 – Jun. 2027, expected). Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Research topics: large language models, in-context learning, interpretability.
-- **Southeast University**, M.S. in Software Engineering (Sep. 2020 – Jun. 2023). Average score: 86.42/100. Supervised by Prof. Deyu Zhou. Research topics: question answering, code generation.
-- **Hefei University of Technology**, B.E. in Computer Science and Technology (Sep. 2016 – Jun. 2020). Average score: 90.10/100. Coursework included linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, and internet protocols.
+<ul class="education-list">
+  <li>
+    <div class="education-header">
+      <span class="education-institution"><strong>King's College London</strong>, London, United Kingdom</span>
+      <span class="education-dates">Sep. 2023 – Jun. 2027 (expected)</span>
+    </div>
+    <div class="education-degree">Ph.D. in Computer Science.</div>
+    <div class="education-notes">Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Focus areas: large language models, in-context learning, interpretability.</div>
+  </li>
+  <li>
+    <div class="education-header">
+      <span class="education-institution"><strong>Southeast University</strong>, Nanjing, China</span>
+      <span class="education-dates">Sep. 2020 – Jun. 2023</span>
+    </div>
+    <div class="education-degree">M.S. in Software Engineering.</div>
+    <div class="education-notes">Average score: 86.42/100. Supervised by Prof. Deyu Zhou with research on question answering and code generation.</div>
+  </li>
+  <li>
+    <div class="education-header">
+      <span class="education-institution"><strong>Hefei University of Technology</strong>, Hefei, China</span>
+      <span class="education-dates">Sep. 2016 – Jun. 2020</span>
+    </div>
+    <div class="education-degree">B.E. in Computer Science and Technology.</div>
+    <div class="education-notes">Average score: 90.10/100. Coursework included linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, and internet protocols.</div>
+  </li>
+</ul>
 
 Awards and Honors
 ======
