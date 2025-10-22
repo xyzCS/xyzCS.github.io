@@ -7,7 +7,7 @@ excerpt: 'A graph-guided generate-and-rerank framework that advances cross-domai
 date: 2023-07-01
 venue: 'Findings of ACL 2023'
 paperurl: 'https://aclanthology.org/2023.findings-acl.23/'
-authors: '<em>Yanzheng Xiang</em>, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou'
+authors: '<strong>Yanzheng Xiang</strong>, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou'
 citation: 'Yanzheng Xiang, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou. 2023. "G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation." In <i>Findings of ACL 2023</i>.'
 ---
 
