@@ -41,5 +41,6 @@ Competitions
 Publications
 ======
 {% for publication in site.publications reversed %}
-  {% include archive-single.html type='plain' post=publication %}
+  {% assign post = publication %}
+  {% include archive-single.html type='plain' %}
 {% endfor %}
