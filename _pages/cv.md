@@ -46,21 +46,21 @@ Competitions
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% for publication in site.publications reversed %}
+  {% include archive-single.html type='plain' post=publication %}
+{% endfor %}
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+{% for talk in site.talks reversed %}
+  {% include archive-single.html type='plain' post=talk %}
+{% endfor %}
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% for course in site.teaching reversed %}
+  {% include archive-single.html type='plain' post=course %}
+{% endfor %}
   
 Other Skills
 ======
