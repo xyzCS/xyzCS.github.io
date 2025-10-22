@@ -22,7 +22,7 @@ Education
 <ul class="education-list">
   <li>
     <div class="education-header">
-      <span class="education-institution"><strong>King's College London</strong>, London, United Kingdom</span>
+      <span class="education-institution"><strong>King's College London</strong></span>
       <span class="education-dates">Sep. 2023 – Jun. 2027 (expected)</span>
     </div>
     <div class="education-degree">Ph.D. in Computer Science.</div>
@@ -30,7 +30,7 @@ Education
   </li>
   <li>
     <div class="education-header">
-      <span class="education-institution"><strong>Southeast University</strong>, Nanjing, China</span>
+      <span class="education-institution"><strong>Southeast University</strong></span>
       <span class="education-dates">Sep. 2020 – Jun. 2023</span>
     </div>
     <div class="education-degree">M.S. in Software Engineering.</div>
@@ -38,7 +38,7 @@ Education
   </li>
   <li>
     <div class="education-header">
-      <span class="education-institution"><strong>Hefei University of Technology</strong>, Hefei, China</span>
+      <span class="education-institution"><strong>Hefei University of Technology</strong></span>
       <span class="education-dates">Sep. 2016 – Jun. 2020</span>
     </div>
     <div class="education-degree">B.E. in Computer Science and Technology.</div>
