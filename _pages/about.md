@@ -49,7 +49,6 @@ Awards and Honors
 ======
 - NMES International Studentship (2023 – 2027)
 - Outstanding Graduate Student, Hefei University of Technology (2020)
-- Merit Student, Hefei University of Technology (2018)
 
 Invited Talks
 ======
