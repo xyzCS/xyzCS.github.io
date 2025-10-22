@@ -40,6 +40,6 @@ Competitions
 
 Publications
 ======
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% for publication in site.publications reversed %}
+  {% include archive-single.html type='plain' post=publication %}
+{% endfor %}
