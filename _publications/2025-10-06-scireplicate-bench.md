@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/scireplicate-bench
 excerpt: 'Benchmarking agentic LLM systems on reproducing algorithms described in research papers.'
 date: 2025-04-06
-venue: 'COLM 2025 (under review)'
+venue: 'COLM 2025'
 paperurl: 'https://arxiv.org/abs/2504.00255'
 citation: 'Yanzheng Xiang, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He. 2025. "SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers." Under review at <i>COLM 2025</i>.'
 authors: '<strong>Yanzheng Xiang</strong>, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He'
