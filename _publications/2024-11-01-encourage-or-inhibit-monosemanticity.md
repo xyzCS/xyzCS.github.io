@@ -6,6 +6,7 @@ permalink: /publication/encourage-or-inhibit-monosemanticity
 excerpt: 'Analyzing how feature decorrelation influences monosemanticity in language models.'
 date: 2024-11-01
 venue: 'EMNLP 2024'
+paperurl: 'https://arxiv.org/abs/2406.17969'
 citation: 'Hanqi Yan, Yanzheng Xiang, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He. 2024. "Encourage or Inhibit Monosemanticity? Revisit Monosemanticity from a Feature Decorrelation Perspective." In <i>EMNLP 2024</i>.'
 authors: 'Hanqi Yan, <strong>Yanzheng Xiang</strong>, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He'
 ---
