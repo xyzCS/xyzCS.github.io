@@ -7,6 +7,6 @@ excerpt: 'Analyzing how feature decorrelation influences monosemanticity in lang
 date: 2024-11-01
 venue: 'EMNLP 2024'
 citation: 'Hanqi Yan, Yanzheng Xiang, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He. 2024. "Encourage or Inhibit Monosemanticity? Revisit Monosemanticity from a Feature Decorrelation Perspective." In <i>EMNLP 2024</i>.'
-authors: 'Hanqi Yan, <em>Yanzheng Xiang</em>, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He'
+authors: 'Hanqi Yan, <strong>Yanzheng Xiang</strong>, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He'
 ---
 We investigate how explicit feature decorrelation affects monosemantic representations in language models. The study disentangles when monosemanticity should be encouraged or suppressed to support downstream interpretability objectives.
