@@ -9,6 +9,7 @@ venue: 'Findings of ACL 2023'
 paperurl: 'https://aclanthology.org/2023.findings-acl.23/'
 authors: '<strong>Yanzheng Xiang</strong>, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou'
 citation: 'Yanzheng Xiang, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou. 2023. "G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation." In <i>Findings of ACL 2023</i>.'
+order: 1
 ---
 
 G3R combines structured schema graphs with generation and reranking to improve text-to-SQL accuracy on cross-domain benchmarks. The system leverages graph-guided decoding and reranking heuristics to better align natural language queries with executable SQL programs.
