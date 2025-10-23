@@ -1,21 +1,17 @@
 ---
-permalink: /
+layout: archive
+title: "CV"
+permalink: /cv/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+  - /resume
 ---
 
-Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working with [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me). You can reach me at [xyz1998seu@gmail.com](mailto:xyz1998seu@gmail.com).
+{% include base_path %}
 
 Professional Summary
 ======
-My current research centers on agentic coding in machine learning and artificial intelligence. I explore methods for reliable code reproduction from academic papers, effective memory management, tool utilization, and the creation of synthetic trajectories to perform supervised fine-tuning and reinforcement learning for improving large language model performance on complex coding tasks.
-
-Experience
-======
-- **Meta** — Contractor (Nov. 2025 – Dec. 2025). Hired by Dr. Yoram Bachrach to develop AI Scientist agents: LLM systems that automate research tasks and machine learning engineering workflows.
-- **AstraZeneca** — Internship (Jul. 2025 – Oct. 2025). Collaborated with Dr. Saseendran and Dr. Jin on generating multiple tokens per decoding step in Diffusion Language Models to accelerate decoding.
+My research focuses on agentic coding and large language models, including reliable code reproduction from academic papers, tool-augmented reasoning, memory management, and generating synthetic trajectories for supervised fine-tuning and reinforcement learning on complex coding tasks.
 
 Education
 ======
@@ -26,7 +22,7 @@ Education
       <span class="education-dates">Sep. 2023 – Jun. 2027 (expected)</span>
     </div>
     <div class="education-degree">Ph.D. in Computer Science.</div>
-    <div class="education-notes">Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Focus areas: large language models, in-context learning, interpretability.</div>
+    <div class="education-notes">Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Research topics: large language models, in-context learning, interpretability.</div>
   </li>
   <li>
     <div class="education-header">
@@ -42,30 +38,57 @@ Education
       <span class="education-dates">Sep. 2016 – Jun. 2020</span>
     </div>
     <div class="education-degree">B.E. in Computer Science and Technology.</div>
-    <div class="education-notes">Average score: 90.10/100. Coursework included linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, and internet protocols.</div>
+    <div class="education-notes">Average score: 90.10/100. Coursework highlights: linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, internet protocols.</div>
   </li>
 </ul>
 
 Awards and Honors
 ======
-- NMES International Studentship (2023 – 2027)
-- Outstanding Graduate Student, Hefei University of Technology (2020)
-- Merit Student, Hefei University of Technology (2018)
+* NMES International Studentship (2023 – 2027)
+* Outstanding Graduate Student, Hefei University of Technology (2020)
+* Merit Student, Hefei University of Technology (2018)
+
+Work Experience
+======
+* **Meta** — Contractor (Nov. 2025 – Dec. 2025)  \\
+  Worked with Dr. Yoram Bachrach on AI Scientist agents, LLM-based systems that automate research workflows and machine learning engineering tasks.
+* **AstraZeneca** — Internship (Jul. 2025 – Oct. 2025)  \\
+  Supervised by Dr. Saseendran and Dr. Jin. Investigated generating multiple tokens per decoding step in Diffusion Language Models to accelerate decoding.
 
 Invited Talks
 ======
-- Meta, LLaMA Community Meet-up (Apr. 6, 2025): “Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.” [[event post](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
+* Meta, LLaMA Community Meet-up (Apr. 6, 2025): “Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.”
 
 Competitions
 ======
-- **National First Prize (Top 0.65%)**, China Undergraduate Mathematical Contest in Modelling (2018). Team-based modeling competition solving open-ended applied problems.
-- **1st Place**, [Spider Leaderboard](https://yale-lily.github.io/spider) (2022). Our model G3R achieved the top rank on the “exact set match without values” metric and is currently 5th overall.
+* National First Prize (Top 0.65%), China Undergraduate Mathematical Contest in Modelling (2018).
+* 1st Place, Spider Leaderboard (2022). Model G3R ranked first on the “exact set match without values” metric and is currently fifth overall.
 
 Publications
 ======
 <ul class="publication-list">
-{% for publication in site.publications reversed %}
+{% assign publications = site.publications | sort: 'order' %}
+{% for publication in publications %}
   {% assign post = publication %}
   {% include publication-list-item.html %}
 {% endfor %}
 </ul>
+  
+Talks
+======
+{% for talk in site.talks reversed %}
+  {% assign post = talk %}
+  {% include archive-single.html type='plain' %}
+{% endfor %}
+  
+Teaching
+======
+{% for course in site.teaching reversed %}
+  {% assign post = course %}
+  {% include archive-single.html type='plain' %}
+{% endfor %}
+  
+Other Skills
+======
+* **IT:** C++, SQL, Python, LaTeX
+* **Languages:** English (Fluent, IELTS 7.0), Chinese (Native)
