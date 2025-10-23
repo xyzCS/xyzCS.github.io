@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working with [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me).
+Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working with [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me). You can reach me at [xyz1998seu@gmail.com](mailto:xyz1998seu@gmail.com).
 
 Professional Summary
 ======
@@ -22,7 +22,7 @@ Education
 <ul class="education-list">
   <li>
     <div class="education-header">
-      <span class="education-institution"><strong>King's College London</strong></span>
+      <span class="education-institution"><strong>King's College London</strong>, London, United Kingdom</span>
       <span class="education-dates">Sep. 2023 – Jun. 2027 (expected)</span>
     </div>
     <div class="education-degree">Ph.D. in Computer Science.</div>
@@ -30,18 +30,19 @@ Education
   </li>
   <li>
     <div class="education-header">
-      <span class="education-institution"><strong>Southeast University</strong></span>
+      <span class="education-institution"><strong>Southeast University</strong>, Nanjing, China</span>
       <span class="education-dates">Sep. 2020 – Jun. 2023</span>
     </div>
     <div class="education-degree">M.S. in Software Engineering.</div>
-    <div class="education-notes">Supervised by Prof. Deyu Zhou with research on question answering and code generation.</div>
+    <div class="education-notes">Average score: 86.42/100. Supervised by Prof. Deyu Zhou with research on question answering and code generation.</div>
   </li>
   <li>
     <div class="education-header">
-      <span class="education-institution"><strong>Hefei University of Technology</strong></span>
+      <span class="education-institution"><strong>Hefei University of Technology</strong>, Hefei, China</span>
       <span class="education-dates">Sep. 2016 – Jun. 2020</span>
     </div>
     <div class="education-degree">B.E. in Computer Science and Technology.</div>
+    <div class="education-notes">Average score: 90.10/100. Coursework included linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, and internet protocols.</div>
   </li>
 </ul>
 
@@ -49,6 +50,7 @@ Awards and Honors
 ======
 - NMES International Studentship (2023 – 2027)
 - Outstanding Graduate Student, Hefei University of Technology (2020)
+- Merit Student, Hefei University of Technology (2018)
 
 Invited Talks
 ======
@@ -62,7 +64,8 @@ Competitions
 Publications
 ======
 <ul class="publication-list">
-{% for publication in site.publications reversed %}
+{% assign publications = site.publications | sort: 'order' %}
+{% for publication in publications %}
   {% assign post = publication %}
   {% include publication-list-item.html %}
 {% endfor %}
