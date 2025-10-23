@@ -9,7 +9,7 @@ venue: 'EMNLP 2024'
 paperurl: 'https://arxiv.org/abs/2311.00237'
 authors: 'Yuxiang Zhou, Jiazheng Li, <strong>Yanzheng Xiang</strong>, Hanqi Yan, Lin Gui, Yulan He'
 citation: 'Yuxiang Zhou, Jiazheng Li, Yanzheng Xiang, Hanqi Yan, Lin Gui, Yulan He. 2024. "The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis." In <i>EMNLP 2024</i>.'
-order: 4
+order: 3
 ---
 
 This survey consolidates theoretical and empirical perspectives on in-context learning, covering mechanistic explanations, interpretability tools, and evaluation methodologies. We highlight open challenges and suggest future directions for understanding context-driven model behavior.
