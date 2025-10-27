@@ -26,7 +26,7 @@ Education
       <span class="education-dates">Sep. 2023 – Jun. 2027 (expected)</span>
     </div>
     <div class="education-degree">Ph.D. in Computer Science.</div>
-    <div class="education-notes">Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Focus areas: large language models, in-context learning, interpretability.</div>
+    <div class="education-notes">Supervised by Prof. Yulan He with Dr. Lin Gui as co-advisor. Focus areas: Agentic Coding, AI for scientific discovery, In-context learning.</div>
   </li>
   <li>
     <div class="education-header">
