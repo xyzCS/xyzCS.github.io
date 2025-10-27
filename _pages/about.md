@@ -34,7 +34,7 @@ Education
       <span class="education-dates">Sep. 2020 – Jun. 2023</span>
     </div>
     <div class="education-degree">M.S. in Software Engineering.</div>
-    <div class="education-notes">Average score: 86.42/100. Supervised by Prof. Deyu Zhou with research on question answering and code generation.</div>
+    <div class="education-notes">Supervised by Prof. Deyu Zhou with research on question answering and code generation.</div>
   </li>
   <li>
     <div class="education-header">
@@ -42,7 +42,6 @@ Education
       <span class="education-dates">Sep. 2016 – Jun. 2020</span>
     </div>
     <div class="education-degree">B.E. in Computer Science and Technology.</div>
-    <div class="education-notes">Average score: 90.10/100. Coursework included linear algebra, advanced mathematics, probability theory, data structures, Java programming, software engineering, and internet protocols.</div>
   </li>
 </ul>
 
