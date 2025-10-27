@@ -14,8 +14,8 @@ My current research centers on agentic coding in machine learning and artificial
 
 Experience
 ======
-- **Meta** — Contractor (Nov. 2025 – Dec. 2025). Hired by Dr. Yoram Bachrach to develop AI Scientist agents: LLM systems that automate research tasks and machine learning engineering workflows.
-- **AstraZeneca** — Internship (Jul. 2025 – Oct. 2025). Collaborated with Dr. Saseendran and Dr. Jin on generating multiple tokens per decoding step in Diffusion Language Models to accelerate decoding.
+- **Meta** — Research Engineer (Nov. 2025 – Dec. 2025). Developing AI Scientist agents: LLM systems that automate research tasks and machine learning engineering workflows.
+- **AstraZeneca** — Internship (Jul. 2025 – Oct. 2025). Supervised by Dr. Saseendran and Dr. Jin on generating multiple tokens per decoding step in Diffusion Language Models to accelerate decoding.
 
 Education
 ======
