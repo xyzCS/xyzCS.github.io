@@ -11,7 +11,7 @@ redirect_from:
 
 Professional Summary
 ======
-My research focuses on agentic coding and large language models, including reliable code reproduction from academic papers, tool-augmented reasoning, memory management, and generating synthetic trajectories for supervised fine-tuning and reinforcement learning on complex coding tasks.
+My current research focuses on AI for Scientific Discovery and Agentic Coding within machine learning. I investigate approaches for reliable code reproduction from academic papers, efficient memory management, and tool use, as well as the generation of synthetic trajectories to enable supervised fine-tuning and reinforcement learning aimed at enhancing LLMs’ capabilities in complex research-oriented coding tasks.
 
 Education
 ======
