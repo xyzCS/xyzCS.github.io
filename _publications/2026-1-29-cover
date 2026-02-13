@@ -1,0 +1,15 @@
+---
+title: "Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding"
+collection: publications
+category: preprint
+permalink: /publication/g3r-text-to-sql
+excerpt: 'A graph-guided generate-and-rerank framework that advances cross-domain text-to-SQL generation.'
+date: 2026-01-29
+venue: 'under review'
+paperurl: 'https://arxiv.org/abs/2602.06161'
+authors: '<strong>Yanzheng Xiang</strong>, Wei Lan, Yizhen Yao, Qinglin Zhu, Hanqi Yan, Chen Jin, Philip Alexander Teare, Dandan Zhang, Lin Gui, Amrutha Saseendran, Yulan He'
+citation: 'Yanzheng Xiang, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou. 2023. "G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation." In <i>Findings of ACL 2023</i>.'
+order: 1
+---
+
+G3R combines structured schema graphs with generation and reranking to improve text-to-SQL accuracy on cross-domain benchmarks. The system leverages graph-guided decoding and reranking heuristics to better align natural language queries with executable SQL programs.
