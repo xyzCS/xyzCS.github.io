@@ -3,7 +3,7 @@
 # Publication and arXiv submission dates are not acceptance dates.
 
 - id: cover-icml-2026
-  date_label: "2026"
+  date_label: "Apr. 2026"
   content: >-
     [COVER](https://arxiv.org/abs/2602.06161) was accepted to **ICML 2026**.
   source: "https://github.com/xyzCS/COVER"
@@ -15,8 +15,7 @@
   source: "https://kclnlp.github.io/about.html"
 
 - id: llama-community-meetup-2025
-  # Keep year-only precision until the event date is confirmed.
-  date_label: "2025"
+  date_label: "Jun. 2025"
   content: >-
     I gave an invited talk on **automatic code reproduction for scientific papers**
     at Meta's LLaMA Community Meet-up.

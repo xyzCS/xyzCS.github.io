@@ -36,7 +36,7 @@ Awards and Honors
 
 Invited Talks
 ======
-- Meta, LLaMA Community Meet-up (Apr. 6, 2025): “[Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies]({{ '/talks/llama-community-meetup-2025' | relative_url }}).”
+- Meta, LLaMA Community Meet-up (Jun. 4, 2025): “[Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies]({{ '/talks/llama-community-meetup-2025' | relative_url }}).”
 
 Competitions
 ======
