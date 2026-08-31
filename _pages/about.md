@@ -19,6 +19,16 @@ Education
 ======
 {% include profile-education.html %}
 
+Publications
+======
+<ul class="publication-list">
+{% assign publications = site.publications | sort: 'order' %}
+{% for publication in publications %}
+  {% assign post = publication %}
+  {% include publication-list-item.html %}
+{% endfor %}
+</ul>
+
 Awards and Honors
 ======
 - NMES International Studentship (2023 – 2027)
@@ -37,13 +47,3 @@ Competitions
 Course Teaching
 ======
 {% include course-teaching.html %}
-
-Publications
-======
-<ul class="publication-list">
-{% assign publications = site.publications | sort: 'order' %}
-{% for publication in publications %}
-  {% assign post = publication %}
-  {% include publication-list-item.html %}
-{% endfor %}
-</ul>
