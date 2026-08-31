@@ -8,8 +8,6 @@ redirect_from:
   - /resume
 ---
 
-[Download CV (PDF)]({{ '/files/yanzheng-cv.pdf' | relative_url }})
-
 {% include profile-summary.md %}
 
 Experience

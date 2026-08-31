@@ -9,8 +9,6 @@ redirect_from:
 
 Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at King’s College London, working with [Prof. Yulan He](https://sites.google.com/view/yulanhe) and [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me).
 
-[View my CV]({{ '/cv/' | relative_url }}) · [Download CV (PDF)]({{ '/files/yanzheng-cv.pdf' | relative_url }})
-
 {% include profile-summary.md %}
 
 Experience
