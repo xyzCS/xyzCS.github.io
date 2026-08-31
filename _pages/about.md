@@ -11,6 +11,12 @@ Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at King�
 
 {% include profile-summary.md %}
 
+News
+======
+{% include news-list.html limit=4 %}
+
+[All news]({{ '/news/' | relative_url }})
+
 Experience
 ======
 {% include profile-experience.md %}
@@ -24,7 +30,3 @@ Publications
   {% include publication-list-item.html %}
 {% endfor %}
 </ul>
-
-Invited Talks
-======
-- Meta, LLaMA Community Meet-up (Apr. 6, 2025): “Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.” [[event post](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]

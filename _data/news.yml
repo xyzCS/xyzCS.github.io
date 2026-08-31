@@ -1,0 +1,53 @@
+# Add new items at the top, with the newest years first.
+# Use year-only labels unless the event month/day is confirmed.
+# Publication and arXiv submission dates are not acceptance dates.
+
+- id: cover-icml-2026
+  date_label: "2026"
+  content: >-
+    [COVER](https://arxiv.org/abs/2602.06161) was accepted to **ICML 2026**.
+  source: "https://github.com/xyzCS/COVER"
+
+- id: scireplicate-colm-2025
+  date_label: "Jul. 2025"
+  content: >-
+    [SciReplicate-Bench](https://arxiv.org/abs/2504.00255) was accepted to **COLM 2025**.
+  source: "https://kclnlp.github.io/about.html"
+
+- id: llama-community-meetup-2025
+  # Keep year-only precision until the event date is confirmed.
+  date_label: "2025"
+  content: >-
+    I gave an invited talk on **automatic code reproduction for scientific papers**
+    at Meta's LLaMA Community Meet-up.
+    [Event post](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/).
+  source: "https://uk.linkedin.com/in/yanzheng-xiang-9aa572282"
+
+- id: pecan-acl-2025
+  date_label: "2025"
+  content: >-
+    [PECAN](https://aclanthology.org/2025.findings-acl.689/) was accepted to **Findings of ACL 2025**.
+  source: "https://aclanthology.org/2025.findings-acl.689/"
+
+- id: emnlp-2024
+  date_label: "2024"
+  content: >-
+    Our papers on [monosemanticity](https://arxiv.org/abs/2406.17969) and
+    [in-context learning](https://arxiv.org/abs/2311.00237) were accepted to **EMNLP 2024**.
+
+- id: infoac-acl-2024
+  date_label: "2024"
+  content: >-
+    Our work on [order sensitivity in in-context learning](https://arxiv.org/abs/2402.15637)
+    was accepted to **Findings of ACL 2024**.
+
+- id: g3r-acl-2023
+  date_label: "2023"
+  content: >-
+    [G3R](https://aclanthology.org/2023.findings-acl.23/) was accepted to **Findings of ACL 2023**.
+
+- id: knowledge-base-qa-emnlp-2021
+  date_label: "2021"
+  content: >-
+    Our [divide-and-conquer approach to knowledge-base question answering](https://aclanthology.org/2021.findings-emnlp.412/)
+    was accepted to **Findings of EMNLP 2021**.
