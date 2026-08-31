@@ -1,0 +1,6 @@
+<ul>
+{% assign courses = site.teaching | sort: 'year' | reverse %}
+{% for course in courses %}
+  <li><a href="{{ course.url | relative_url }}">{{ course.title }}</a>, {{ course.venue }} ({{ course.year }}).</li>
+{% endfor %}
+</ul>
