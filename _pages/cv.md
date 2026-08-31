@@ -40,12 +40,7 @@ Invited Talks
 
 Competitions
 ======
-- **National First Prize (Top 0.65%)**, China Undergraduate Mathematical Contest in Modelling (2018). Team-based modeling competition solving open-ended applied problems.
 - **1st Place**, [Spider Leaderboard](https://yale-lily.github.io/spider) (2022). Our model G3R achieved the top rank on the “exact set match without values” metric.
-
-Course Teaching
-======
-{% include course-teaching.html %}
 
 Other Skills
 ======
