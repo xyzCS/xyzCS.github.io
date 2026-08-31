@@ -2,7 +2,7 @@
 
 - Core contributor to [Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model), an open agentic foundation model.
 - Contributed to the development of [Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/).
-- Developing AI Scientist agents: LLM-based systems that automate scientific research tasks and machine learning engineering workflows.
+- Developed AI Scientist agents: LLM-based systems that automate scientific research tasks and machine learning engineering workflows.
 
 **AstraZeneca — Internship** (Jul. 2025 – Oct. 2025)
 
