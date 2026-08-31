@@ -20,6 +20,9 @@
   {% if post.paperurl %}
     [<a href="{{ post.paperurl }}">{{ post.paper_label | default: 'paper' }}</a>]
   {% endif %}
+  {% if post.codeurl %}
+    [<a href="{{ post.codeurl }}">Code</a>]
+  {% endif %}
   {% if post.authors %}<br />{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
   {% if post.venue %}
     <br />In {{ post.venue }}{% if show_year %} ({{ pub_year }}){% endif %}.

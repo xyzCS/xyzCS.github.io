@@ -1,12 +1,15 @@
 ---
 title: "SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers"
 collection: publications
+layout: single
+author_profile: true
 category: conferences
 permalink: /publication/scireplicate-bench
 excerpt: 'Benchmarking agentic LLM systems on reproducing algorithms described in research papers.'
 date: 2025-04-06
 venue: 'COLM 2025'
 paperurl: 'https://arxiv.org/abs/2504.00255'
+codeurl: 'https://github.com/xyzCS/SciReplicate-Bench'
 citation: 'Yanzheng Xiang, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He. 2025. "SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers." In <i>COLM 2025</i>.'
 authors: '<strong>Yanzheng Xiang</strong>, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He'
 paper_label: 'arXiv'

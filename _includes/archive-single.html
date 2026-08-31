@@ -67,6 +67,9 @@
     {% elsif post.slidesurl %}
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% endif %}
+    {% if post.codeurl %}
+      <p><a href="{{ post.codeurl }}">Code</a></p>
+    {% endif %}
 
   </article>
 </div>
