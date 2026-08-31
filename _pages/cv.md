@@ -10,8 +10,6 @@ redirect_from:
 
 [Download CV (PDF)]({{ '/files/yanzheng-cv.pdf' | relative_url }})
 
-Professional Summary
-======
 {% include profile-summary.md %}
 
 Experience

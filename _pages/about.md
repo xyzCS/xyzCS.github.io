@@ -11,8 +11,6 @@ Hello! I'm a PhD student in the [NLP group](https://kclnlp.github.io/) at Kingâ€
 
 [View my CV]({{ '/cv/' | relative_url }}) Â· [Download CV (PDF)]({{ '/files/yanzheng-cv.pdf' | relative_url }})
 
-Professional Summary
-======
 {% include profile-summary.md %}
 
 Experience
