@@ -15,10 +15,6 @@ Experience
 ======
 {% include profile-experience.md %}
 
-Education
-======
-{% include profile-education.html %}
-
 Publications
 ======
 <ul class="publication-list">
@@ -29,16 +25,6 @@ Publications
 {% endfor %}
 </ul>
 
-Awards and Honors
-======
-- NMES International Studentship (2023 – 2027)
-- Outstanding Graduate Student, Hefei University of Technology (2020)
-- Merit Student, Hefei University of Technology (2018)
-
 Invited Talks
 ======
 - Meta, LLaMA Community Meet-up (Apr. 6, 2025): “Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.” [[event post](https://www.linkedin.com/posts/yanzheng-xiang-9aa572282_ai-llm-agenticai-activity-7336720296193761281-yGy2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETIZhIBXh5XAI2i8HIYl-QGLzQlxhu0J98)]
-
-Competitions
-======
-- **1st Place**, [Spider Leaderboard](https://yale-lily.github.io/spider) (2022). Our model G3R achieved the top rank on the “exact set match without values” metric.
