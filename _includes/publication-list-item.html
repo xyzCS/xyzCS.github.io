@@ -1,11 +1,15 @@
 {% assign link_url = post.paperurl | default: post.link | default: post.url %}
-{% if post.date %}
+{% if post.year %}
+  {% assign pub_year = post.year | append: '' %}
+{% elsif post.date %}
   {% assign pub_year = post.date | date: '%Y' %}
-  {% if post.venue and post.venue contains pub_year %}
-    {% assign show_year = false %}
-  {% else %}
-    {% assign show_year = true %}
-  {% endif %}
+{% else %}
+  {% assign pub_year = '' %}
+{% endif %}
+{% if pub_year != '' and post.venue and post.venue contains pub_year %}
+  {% assign show_year = false %}
+{% elsif pub_year != '' %}
+  {% assign show_year = true %}
 {% else %}
   {% assign show_year = false %}
 {% endif %}
