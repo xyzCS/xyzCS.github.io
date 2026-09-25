@@ -3,13 +3,13 @@
 # Publication and arXiv submission dates are not acceptance dates.
 
 - id: lrd-neurips-2026
-  date_label: "2026"
+  date_label: "Sep. 2026"
   content: >-
     [Latent Refinement Decoding](https://arxiv.org/abs/2510.11052) was accepted to **NeurIPS 2026**.
   source: "https://sites.google.com/view/yulanhe/publications"
 
 - id: asrd-emnlp-2026
-  date_label: "2026"
+  date_label: "Sep. 2026"
   content: >-
     [Follow the Latent Roadmap](https://arxiv.org/abs/2606.16847) was accepted to **EMNLP 2026** as an **oral presentation**.
   source: "https://kclpure.kcl.ac.uk/portal/en/publications/follow-the-latent-roadmap-navigating-revocable-decoding-for-diffu/"
