@@ -1,144 +1,171 @@
-\documentclass[11pt,a4paper]{article}
-\usepackage[margin=1in]{geometry}
+\documentclass[UTF8,10pt,a4paper,fontset=none]{ctexart}
+\usepackage[top=1.6cm,bottom=1.6cm,left=1.9cm,right=1.9cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage{fontawesome}
-\usepackage{setspace}
 \usepackage{needspace}
+\usepackage{titlesec}
+\usepackage{xcolor}
 
-% Increase section title size
-\titleformat{\section}{\Large\bfseries}{}{0em}{}
-\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
-
-% Remove paragraph indent
+\definecolor{ink}{HTML}{252525}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rulegray}{HTML}{B4B4B4}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Songti SC}
+\setCJKsansfont{Heiti SC}
+\hypersetup{hidelinks}
+\color{ink}
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\emergencystretch=2em
+\linespread{1.08}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.55em,itemsep=0pt,topsep=0.15em,parsep=0pt}
+\titleformat{\section}{\sffamily\bfseries\fontsize{11}{14}\selectfont}{}{0pt}{}[\vspace{0.08em}{\color{rulegray}\titlerule[0.4pt]}]
+\titlespacing*{\section}{0pt}{0.75em}{0.35em}
 
-\renewcommand{\labelitemi}{--}
+\newcommand{\pubentry}[4]{%
+  \Needspace{4\baselineskip}
+  \noindent
+  \begin{minipage}[t]{0.19\textwidth}
+    \vspace{0pt}\raggedright{\footnotesize\sffamily\color{muted}#1}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.78\textwidth}
+    \vspace{0pt}\raggedright
+    {\small\bfseries\href{#4}{#3}}\par
+    {\footnotesize\color{muted}#2}\par
+  \end{minipage}\par\vspace{0.35em}%
+}
 
 \begin{document}
 
-\begin{center}
-  {\LARGE \textbf{Yanzheng Xiang}} \\[0.5em]
-  Email: \href{mailto:xyz1998seu@gmail.com}{xyz1998seu@gmail.com} \quad
-  Homepage: \href{https://xyzcs.github.io/}{https://xyzcs.github.io/}
-\end{center}
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  {\fontsize{25}{29}\selectfont\bfseries Yanzheng Xiang}\par
+  \vspace{0.17em}
+  {\small\color{muted}向彦铮}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.43\textwidth}
+  \raggedleft\small
+  \href{mailto:xyz1998seu@gmail.com}{xyz1998seu@gmail.com}\\
+  \href{https://xyzcs.github.io/}{xyzcs.github.io}
+\end{minipage}
+\par\vspace{0.72em}
+{\color{rulegray}\rule{\textwidth}{0.65pt}}
 
-\vspace{1em}
-
-\section*{Professional Summary}
+\section*{PROFESSIONAL SUMMARY}
 My current research focuses on Auto Research, spanning reliable code reproduction from academic papers, the development of LLM-based agents that propose novel scientific ideas and predict promising research directions, and the use of reinforcement learning to enhance these capabilities. I am also a direct contributor to Meta's Muse Glimmer and Muse Spark models.
 
-\section*{Experience}
-
-\textbf{Meta} \hfill Nov. 2025 -- Sep. 2026\\
-\textit{Research Engineer}
-\begin{itemize}[leftmargin=1.5em, itemsep=0.2em, topsep=0.1em, partopsep=0pt, parsep=0pt]
+\section*{EXPERIENCE}
+\textbf{Meta \,|\, Research Engineer}\hfill Nov. 2025--Sep. 2026
+\begin{itemize}
   \item Core contributor to \href{https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model}{Muse Glimmer}, an open agentic foundation model.
   \item Contributed to the development of \href{https://ai.meta.com/blog/introducing-muse-spark-msl/}{Muse Spark}.
   \item Developing AI Scientist agents: LLM-based systems that automate scientific research tasks and machine learning engineering workflows.
   \item Building automated bug-injection pipelines for SWE-bench to construct training and evaluation datasets.
   \item Building an automated data construction pipeline for recursive self-improvement (RSI) that identifies model-specific weaknesses and generates targeted training data to improve model capabilities.
 \end{itemize}
-\vspace{0.5em}
-\textbf{AstraZeneca} \hfill Jul. 2025 -- Oct. 2025\\
-\textit{Internship}\\
-Supervised by Dr. Saseendran and Dr. Jin.\\
-Conducted research on efficient inference for diffusion language models. Published COVER at ICML 2026, achieving up to $11.64\times$ decoding speedup while preserving generation quality.
 
-\section*{Education}
-\textbf{King's College London} \hfill Sep 2023 -- Sep 2027 (Expected)\\
+\textbf{AstraZeneca \,|\, Internship}\hfill Jul. 2025--Oct. 2025\\
+Supervised by Dr. Saseendran and Dr. Jin. Conducted research on efficient inference for diffusion language models. Published COVER at ICML 2026, achieving up to $11.64\times$ decoding speedup while preserving generation quality.
+
+\section*{EDUCATION}
+\textbf{King's College London}\hfill Sep 2023--Sep 2027 (Expected)\\
 Ph.D. in Computer Science\\
 Supervised by Prof. Yulan He with Dr. Lin Gui as Co-advisor.\\
-Topic: Large Language Model, In-context Learning, Interpretability.\\[0.4em]
+Topic: Large Language Model, In-context Learning, Interpretability.
 
-\textbf{Southeast University} \hfill Sep 2020 -- Jun 2023\\
+\vspace{0.25em}
+\textbf{Southeast University}\hfill Sep 2020--Jun 2023\\
 M.S. in Software Engineering\\
 Average Score: 86.42 / 100\\
 Supervised by Prof. Deyu Zhou.\\
-Topic: Question Answering, Code Generation.\\[0.4em]
+Topic: Question Answering, Code Generation.
 
-\textbf{Hefei University of Technology} \hfill Sep 2016 -- Jun 2020\\
-B.E. in Computer Science and Technology\\
+\vspace{0.25em}
+\textbf{Hefei University of Technology}\hfill Sep 2016--Jun 2020\\
+B.E. in Computer Science and Technology
 
-\Needspace{9\baselineskip}
-\section*{Publications}
-\begin{flushleft}
-{[ICML 2026]} \textbf{Yanzheng Xiang}, Lan Wei, Yizhen Yao, Qinglin Zhu, Hanqi Yan, Chen Jin, Philip Alexander Teare, Dandan Zhang, Lin Gui, Amrutha Saseendran, Yulan He.\\
-\textit{\href{https://arxiv.org/abs/2602.06161}{Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding.}}\\[0.5em]
-\end{flushleft}
+\Needspace{6\baselineskip}
+\section*{PUBLICATIONS}
+\pubentry{ICML 2026}
+  {\textbf{Yanzheng Xiang}, Lan Wei, Yizhen Yao, Qinglin Zhu, Hanqi Yan, Chen Jin, Philip Alexander Teare, Dandan Zhang, Lin Gui, Amrutha Saseendran, Yulan He.}
+  {Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding.}
+  {https://arxiv.org/abs/2602.06161}
 
-\begin{flushleft}
-{[COLM 2025]} \textbf{Yanzheng Xiang}, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He.\\
-\textit{\href{https://arxiv.org/abs/2504.00255}{SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers.}}\\[0.5em]
-\end{flushleft}
+\pubentry{COLM 2025}
+  {\textbf{Yanzheng Xiang}, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He.}
+  {SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers.}
+  {https://arxiv.org/abs/2504.00255}
 
-\begin{flushleft}
-{[Findings of ACL'23]} \textbf{Yanzheng Xiang}, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou.\\
-\textit{\href{https://aclanthology.org/2023.findings-acl.23/}{G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation.}}\\[0.5em]
-\end{flushleft}
+\pubentry{Findings of ACL'23}
+  {\textbf{Yanzheng Xiang}, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou.}
+  {G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation.}
+  {https://aclanthology.org/2023.findings-acl.23/}
 
-\begin{flushleft}
-{[Findings of ACL'24]} \textbf{Yanzheng Xiang}, Hanqi Yan, Lin Gui, Yulan He.\\
-\textit{\href{https://arxiv.org/abs/2402.15637}{Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models.}}\\[0.5em]
-\end{flushleft}
+\pubentry{Findings of ACL'24}
+  {\textbf{Yanzheng Xiang}, Hanqi Yan, Lin Gui, Yulan He.}
+  {Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models.}
+  {https://arxiv.org/abs/2402.15637}
 
-\begin{flushleft}
-{[NeurIPS 2026]} Qinglin Zhu, Yizhen Yao, Runcong Zhao, \textbf{Yanzheng Xiang}, Amrutha Saseendran, Chen Jin, Philip Teare, Bin Liang, Yulan He, Lin Gui.\\
-\textit{\href{https://arxiv.org/abs/2510.11052}{Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States.}}\\[0.5em]
-\end{flushleft}
+\newpage
+\section*{PUBLICATIONS (CONTINUED)}
+\pubentry{NeurIPS 2026}
+  {Qinglin Zhu, Yizhen Yao, Runcong Zhao, \textbf{Yanzheng Xiang}, Amrutha Saseendran, Chen Jin, Philip Teare, Bin Liang, Yulan He, Lin Gui.}
+  {Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States.}
+  {https://arxiv.org/abs/2510.11052}
 
-\begin{flushleft}
-{[EMNLP 2026 Oral]} Yizhen Yao, Qinglin Zhu, Runcong Zhao, Xiangxiang Dai, \textbf{Yanzheng Xiang}, Yulan He, Lin Gui.\\
-\textit{\href{https://arxiv.org/abs/2606.16847}{Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens.}}\\[0.5em]
-\end{flushleft}
+\pubentry{EMNLP 2026 Oral}
+  {Yizhen Yao, Qinglin Zhu, Runcong Zhao, Xiangxiang Dai, \textbf{Yanzheng Xiang}, Yulan He, Lin Gui.}
+  {Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens.}
+  {https://arxiv.org/abs/2606.16847}
 
-\begin{flushleft}
-{[EMNLP'24]} Hanqi Yan, \textbf{Yanzheng Xiang}, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He.\\
-\textit{\href{https://arxiv.org/abs/2406.17969}{Encourage or Inhibit Monosemanticity? Revisit Monosemanticity from a Feature Decorrelation Perspective.}}\\[0.5em]
-\end{flushleft}
+\pubentry{EMNLP'24}
+  {Hanqi Yan, \textbf{Yanzheng Xiang}, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He.}
+  {Encourage or Inhibit Monosemanticity? Revisit Monosemanticity from a Feature Decorrelation Perspective.}
+  {https://arxiv.org/abs/2406.17969}
 
-\begin{flushleft}
-{[EMNLP'24]} Yuxiang Zhou, Jiazheng Li, \textbf{Yanzheng Xiang}, Hanqi Yan, Lin Gui, Yulan He.\\
-\textit{\href{https://arxiv.org/abs/2311.00237}{The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis.}}\\[0.5em]
-\end{flushleft}
+\pubentry{EMNLP'24}
+  {Yuxiang Zhou, Jiazheng Li, \textbf{Yanzheng Xiang}, Hanqi Yan, Lin Gui, Yulan He.}
+  {The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis.}
+  {https://arxiv.org/abs/2311.00237}
 
-\begin{flushleft}
-{[Findings of ACL'25]} Xinyu Wang, \textbf{Yanzheng Xiang}, Lin Gui, Yulan He.\\
-\textit{\href{https://arxiv.org/abs/2410.04790}{PECAN: LLM-Guided Dynamic Progress Control with Attention-Guided Hierarchical Weighted Graph for Long-Document QA.}}\\[0.5em]
-\end{flushleft}
+\pubentry{Findings of ACL'25}
+  {Xinyu Wang, \textbf{Yanzheng Xiang}, Lin Gui, Yulan He.}
+  {PECAN: LLM-Guided Dynamic Progress Control with Attention-Guided Hierarchical Weighted Graph for Long-Document QA.}
+  {https://arxiv.org/abs/2410.04790}
 
-\begin{flushleft}
-{[Findings of EMNLP'21]} Deyu Zhou, \textbf{Yanzheng Xiang}, Linhai Zhang, Chenchen Ye, Qian-Wen Zhang, Yunbo Cao.\\
-\textit{\href{https://aclanthology.org/2021.findings-emnlp.412/}{A Divide-And-Conquer Approach for Multi-label Multi-hop Relation Detection in Knowledge Base QA.}}
-\end{flushleft}
+\pubentry{Findings of EMNLP'21}
+  {Deyu Zhou, \textbf{Yanzheng Xiang}, Linhai Zhang, Chenchen Ye, Qian-Wen Zhang, Yunbo Cao.}
+  {A Divide-And-Conquer Approach for Multi-label Multi-hop Relation Detection in Knowledge Base QA.}
+  {https://aclanthology.org/2021.findings-emnlp.412/}
 
-\section*{Awards and Honors}
-NMES International Studentship \hfill 2023 -- 2027\\
-Outstanding Graduate Student, Hefei University of Technology \hfill 2020\\
-Merit Student, Hefei University of Technology \hfill 2018
+\Needspace{5\baselineskip}
+\section*{AWARDS AND HONORS}
+NMES International Studentship\hfill 2023--2027\\
+Outstanding Graduate Student, Hefei University of Technology\hfill 2020\\
+Merit Student, Hefei University of Technology\hfill 2018
 
-\section*{Invited Talks}
-\textbf{LLaMA Community Meet-up} \hfill Apr. 6, 2025\\
-Invited talk at Meta: ``Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.''
+\Needspace{4\baselineskip}
+\section*{INVITED TALKS}
+\textbf{LLaMA Community Meet-up}\hfill Apr. 6, 2025\\
+Invited talk at Meta: “Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies.”
 
-\Needspace{12\baselineskip}
-\section*{Competitions}
-\begin{flushleft}
-\textbf{National First Prize (Top 0.65\%)}, China Undergraduate Mathematical Contest in Modelling \hfill 2018\\[1em]
-\end{flushleft}
-\small{The contest challenges teams of up to three students to analyze, model, solve, and present solution reports to an open-ended application problem.}\\[0.5em]
+\Needspace{6\baselineskip}
+\section*{COMPETITIONS}
+\textbf{National First Prize (Top 0.65\%)}, China Undergraduate Mathematical Contest in Modelling\hfill 2018\\
+The contest challenges teams of up to three students to analyze, model, solve, and present solution reports to an open-ended application problem.
 
-\begin{flushleft}
-\textbf{1st Place, \href{https://yale-lily.github.io/spider}{Spider Leaderboard}} \hfill 2022\\
-\end{flushleft}
-\small{Spider is a large-scale semantic parsing dataset. Our model G3R achieved 1st place on the ``exact set match without values'' metric. Currently ranked 5th.}\\[0.5em]
+\vspace{0.25em}
+\textbf{1st Place, \href{https://yale-lily.github.io/spider}{Spider Leaderboard}}\hfill 2022\\
+Spider is a large-scale semantic parsing dataset. Our model G3R achieved 1st place on the “exact set match without values” metric. Currently ranked 5th.
 
-\section*{Course Teaching}
-Discrete Mathematics, Southeast University \hfill 2021\\
-Computer Programming for Data Scientists, King’s College London \hfill 2024
+\Needspace{5\baselineskip}
+\section*{COURSE TEACHING}
+Discrete Mathematics, Southeast University\hfill 2021\\
+Computer Programming for Data Scientists, King’s College London\hfill 2024
 
-\section*{Other Skills}
+\section*{OTHER SKILLS}
 \textbf{IT:} C++, SQL, Python, LaTeX\\
 \textbf{Languages:} English (Fluent, IELTS 7.0), Chinese (Native)
+
 \end{document}
