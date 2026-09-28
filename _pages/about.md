@@ -1,7 +1,7 @@
 ---
 permalink: /
 author_profile: true
-excerpt: "PhD student at King's College London researching AI for Scientific Discovery, code reproduction, and reinforcement learning for LLM-based agents."
+excerpt: "PhD student at King's College London researching Auto Research, code reproduction, and reinforcement learning for LLM-based agents."
 redirect_from: 
   - /about/
   - /about.html
