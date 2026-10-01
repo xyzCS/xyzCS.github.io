@@ -1,0 +1,158 @@
+\documentclass[UTF8,11pt,a4paper,fontset=none]{ctexart}
+\usepackage[top=1.75cm,bottom=1.85cm,left=2.05cm,right=2.05cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{needspace}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\definecolor{ink}{HTML}{252525}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rulegray}{HTML}{B4B4B4}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Songti SC}
+\setCJKsansfont{Heiti SC}
+\hypersetup{hidelinks}
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.16}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.55em,itemsep=0.12em,topsep=0.25em,parsep=0pt}
+\titleformat{\section}{\sffamily\bfseries\fontsize{11}{14}\selectfont}{}{0pt}{}[\vspace{0.08em}{\color{rulegray}\titlerule[0.4pt]}]
+\titlespacing*{\section}{0pt}{1.05em}{0.5em}
+
+\newcommand{\pubentry}[4]{%
+  \par\noindent
+  \begin{tabular}{@{}p{0.19\textwidth}@{\hspace{0.03\textwidth}}p{0.78\textwidth}@{}}
+    {\raggedright\footnotesize\sffamily\color{muted}#1\par} &
+    {\raggedright\small\bfseries\href{#4}{#3}\par}
+    {\raggedright\footnotesize\color{muted}#2\par}
+  \end{tabular}\par\vspace{0.58em}%
+}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  {\fontsize{25}{29}\selectfont\sffamily\bfseries 向彦铮}\par
+  \vspace{0.17em}
+  {\small\color{muted}Yanzheng Xiang}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.43\textwidth}
+  \raggedleft\small
+  \href{mailto:xyz1998seu@gmail.com}{xyz1998seu@gmail.com}\\
+  \href{https://xyzcs.github.io/}{xyzcs.github.io}
+\end{minipage}
+\par\vspace{0.72em}
+{\color{rulegray}\rule{\textwidth}{0.65pt}}
+
+\section*{研究方向}
+大语言模型智能体与自动化科研。重点研究论文算法复现、科学问题生成和研究方向预测，并探索强化学习在科研智能体中的应用。
+
+\section*{工作经历}
+\textbf{Meta｜研究工程师}\hfill 2025.11--2026.09
+\begin{itemize}
+  \item \href{https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model}{Muse Glimmer} 的核心贡献者；参与 \href{https://ai.meta.com/blog/introducing-muse-spark-msl/}{Muse Spark} 模型开发。
+  \item 开发 AI Scientist 智能体，覆盖科研任务与机器学习工程流程。
+  \item 构建 SWE-bench 自动化缺陷注入流水线，生成训练与评估数据。
+  \item 构建递归自我改进（RSI）数据流程，识别模型薄弱项并生成针对性训练数据。
+\end{itemize}
+
+\textbf{阿斯利康｜实习生}\hfill 2025.07--2025.10\\
+在 Saseendran 博士和 Jin 博士指导下研究扩散语言模型的高效推理。成果 COVER 发表于 ICML 2026，在保持生成质量的同时实现最高 $11.64\times$ 解码加速。
+
+\section*{教育经历}
+\textbf{伦敦国王学院（King's College London）}\hfill 2023.09--2027.09（预计）\\
+计算机科学博士；导师：Yulan He 教授，联合导师：Lin Gui 博士。\\
+研究方向：大语言模型、上下文学习、可解释性。
+
+\vspace{0.45em}
+\textbf{东南大学}\hfill 2020.09--2023.06\\
+软件工程硕士；平均成绩：86.42/100；导师：Deyu Zhou 教授。\\
+研究方向：问答系统、代码生成。
+
+\vspace{0.45em}
+\textbf{合肥工业大学}\hfill 2016.09--2020.06\\
+计算机科学与技术学士。
+
+\Needspace{8\baselineskip}
+\section*{学术论文}
+\pubentry{ICML 2026}
+  {\textbf{Yanzheng Xiang}, Lan Wei, Yizhen Yao, Qinglin Zhu, Hanqi Yan, Chen Jin, Philip Alexander Teare, Dandan Zhang, Lin Gui, Amrutha Saseendran, Yulan He.}
+  {Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding.}
+  {https://arxiv.org/abs/2602.06161}
+
+\pubentry{COLM 2025}
+  {\textbf{Yanzheng Xiang}, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He.}
+  {SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers.}
+  {https://arxiv.org/abs/2504.00255}
+
+\pubentry{Findings of ACL 2023}
+  {\textbf{Yanzheng Xiang}, Qian-Wen Zhang, Xu Zhang, Zejie Liu, Yunbo Cao, Deyu Zhou.}
+  {G3R: A Graph-Guided Generate-and-Rerank Framework for Cross-domain Text-to-SQL Generation.}
+  {https://aclanthology.org/2023.findings-acl.23/}
+
+\pubentry{Findings of ACL 2024}
+  {\textbf{Yanzheng Xiang}, Hanqi Yan, Lin Gui, Yulan He.}
+  {Addressing Order Sensitivity of In-Context Demonstration Examples in Causal Language Models.}
+  {https://arxiv.org/abs/2402.15637}
+
+\newpage
+\section*{学术论文（续）}
+\pubentry{NeurIPS 2026}
+  {Qinglin Zhu, Yizhen Yao, Runcong Zhao, \textbf{Yanzheng Xiang}, Amrutha Saseendran, Chen Jin, Philip Teare, Bin Liang, Yulan He, Lin Gui.}
+  {Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by Refining Belief States.}
+  {https://arxiv.org/abs/2510.11052}
+
+\pubentry{EMNLP 2026 (Oral)}
+  {Yizhen Yao, Qinglin Zhu, Runcong Zhao, Xiangxiang Dai, \textbf{Yanzheng Xiang}, Yulan He, Lin Gui.}
+  {Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens.}
+  {https://arxiv.org/abs/2606.16847}
+
+\pubentry{EMNLP 2024}
+  {Hanqi Yan, \textbf{Yanzheng Xiang}, Guangyi Chen, Yifei Wang, Lin Gui, Yulan He.}
+  {Encourage or Inhibit Monosemanticity? Revisit Monosemanticity from a Feature Decorrelation Perspective.}
+  {https://arxiv.org/abs/2406.17969}
+
+\pubentry{EMNLP 2024}
+  {Yuxiang Zhou, Jiazheng Li, \textbf{Yanzheng Xiang}, Hanqi Yan, Lin Gui, Yulan He.}
+  {The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis.}
+  {https://arxiv.org/abs/2311.00237}
+
+\pubentry{Findings of ACL 2025}
+  {Xinyu Wang, \textbf{Yanzheng Xiang}, Lin Gui, Yulan He.}
+  {PECAN: LLM-Guided Dynamic Progress Control with Attention-Guided Hierarchical Weighted Graph for Long-Document QA.}
+  {https://arxiv.org/abs/2410.04790}
+
+\pubentry{Findings of EMNLP 2021}
+  {Deyu Zhou, \textbf{Yanzheng Xiang}, Linhai Zhang, Chenchen Ye, Qian-Wen Zhang, Yunbo Cao.}
+  {A Divide-And-Conquer Approach for Multi-label Multi-hop Relation Detection in Knowledge Base QA.}
+  {https://aclanthology.org/2021.findings-emnlp.412/}
+
+\Needspace{6\baselineskip}
+\section*{奖励与荣誉}
+NMES 国际学生奖学金\hfill 2023--2027\\
+合肥工业大学优秀研究生\hfill 2020\\
+合肥工业大学优秀学生\hfill 2018
+
+\Needspace{5\baselineskip}
+\section*{邀请报告}
+Meta LLaMA Community Meet-up（2025）：\textit{Towards Automatic Code Reproduction for Scientific Papers: Benchmarks and Methodologies}.
+
+\Needspace{8\baselineskip}
+\section*{竞赛}
+\textbf{全国大学生数学建模竞赛全国一等奖（前 0.65\%）}\hfill 2018\\
+\textbf{\href{https://yale-lily.github.io/spider}{Spider 排行榜第 1 名}}\hfill 2022\\
+G3R 在“exact set match without values”指标上取得第一名。
+
+\Needspace{6\baselineskip}
+\section*{教学经历}
+东南大学《离散数学》\hfill 2021\\
+伦敦国王学院《面向数据科学家的计算机编程》\hfill 2024
+
+\section*{其他技能}
+\textbf{编程与工具：} C++、SQL、Python、LaTeX\\
+\textbf{语言：} 中文（母语）；英语（流利，IELTS 7.0）
+
+\end{document}
