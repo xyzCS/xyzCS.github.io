@@ -73,6 +73,8 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
+  reports:
+    title: 'Technical Reports'
   conferences:
     title: 'Conference Papers'
 

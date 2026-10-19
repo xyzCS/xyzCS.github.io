@@ -2,6 +2,13 @@
 # Use year-only labels unless the event month/day is confirmed.
 # Publication and arXiv submission dates are not acceptance dates.
 
+- id: muse-glimmer-technical-report-2026
+  date_label: "Oct. 2026"
+  content: >-
+    The [Muse Glimmer technical report](/files/muse-glimmer-technical-report.pdf) is now available.
+    I am listed as a **core contributor** to Meta's 30B on-device agentic model.
+  source: "/files/muse-glimmer-technical-report.pdf"
+
 - id: lrd-neurips-2026
   date_label: "Sep. 2026"
   content: >-

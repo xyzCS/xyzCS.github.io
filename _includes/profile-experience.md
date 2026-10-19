@@ -1,6 +1,6 @@
 **Meta — Research Engineer** (Nov. 2025 – Sep. 2026)
 
-- Core contributor to [Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model), an open agentic foundation model.
+- Core contributor to [Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model), an open agentic foundation model. [Technical report]({{ '/files/muse-glimmer-technical-report.pdf' | relative_url }}).
 - Contributed to the development of [Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/).
 - Developing AI Scientist agents: LLM-based systems that automate scientific research tasks and machine learning engineering workflows.
 - Building automated bug-injection pipelines for SWE-bench to construct training and evaluation datasets.
