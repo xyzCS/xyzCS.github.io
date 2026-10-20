@@ -38,6 +38,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "xyzCS"
+  cv               : "/files/yanzheng-cv.pdf"
+  cv_zh            : "/files/yanzheng-cv-zh.pdf"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

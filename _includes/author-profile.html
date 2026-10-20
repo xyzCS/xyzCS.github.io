@@ -76,6 +76,15 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
       {% endif %}
+      {% if author.cv %}
+        <li class="author__cv">
+          <a href="{{ author.cv | relative_url }}" aria-label="Download CV (English PDF)"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a>
+          {% if author.cv_zh %}
+            <span aria-hidden="true">·</span>
+            <a href="{{ author.cv_zh | relative_url }}" lang="zh-Hans" aria-label="下载中文简历（PDF）">中文</a>
+          {% endif %}
+        </li>
+      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
